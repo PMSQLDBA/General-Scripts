@@ -1,4 +1,4 @@
---TSQL Query to find how many DBs have EXECUTE permission except System DB's
+--TSQL Query to find DBs have EXECUTE permission except System DB's
 
 DECLARE @sql NVARCHAR(MAX) = N'';
 DECLARE @dbName SYSNAME;
